@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-20T14:48:23+08:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Chi’s Blog</title><subtitle>这个人很懒，什么都没有留下</subtitle><author><name>GoneGo1ng</name></author><entry><title type="html">如何使用 GitHub Pages 搭建自己的 Blog</title><link href="http://localhost:4000/blog/2022/08/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-GitHub-Pages-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-Blog/" rel="alternate" type="text/html" title="如何使用 GitHub Pages 搭建自己的 Blog" /><published>2022-08-20T14:00:00+08:00</published><updated>2022-08-20T14:00:00+08:00</updated><id>http://localhost:4000/blog/2022/08/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-GitHub-Pages-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-Blog</id><content type="html" xml:base="http://localhost:4000/blog/2022/08/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-GitHub-Pages-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-Blog/">&lt;p&gt;关于搭建 Blog，下面这篇文章已经介绍的比较详细了，但是我在按照他的步骤搭建过程中遇到了一些坑，这里记录一下，分享给大家。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-20T15:08:59+08:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Chi’s Blog</title><subtitle>这个人很懒，什么都没有留下</subtitle><author><name>GoneGo1ng</name></author><entry><title type="html">如何使用 GitHub Pages 搭建自己的 Blog</title><link href="http://localhost:4000/blog/2022/08/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-GitHub-Pages-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-Blog/" rel="alternate" type="text/html" title="如何使用 GitHub Pages 搭建自己的 Blog" /><published>2022-08-20T14:00:00+08:00</published><updated>2022-08-20T14:00:00+08:00</updated><id>http://localhost:4000/blog/2022/08/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-GitHub-Pages-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-Blog</id><content type="html" xml:base="http://localhost:4000/blog/2022/08/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-GitHub-Pages-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-Blog/">&lt;p&gt;关于搭建 Blog，下面这篇文章已经介绍的比较详细了，但是我在按照他的步骤搭建过程中遇到了一些坑，这里记录一下，分享给大家。&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;参考：
@@ -12,27 +12,27 @@
 
 &lt;h2 id=&quot;新建-repository&quot;&gt;新建 Repository&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/截屏2022-08-19%2015.08.56.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-19%2015.08.56.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;填写-repository-name&quot;&gt;填写 Repository name&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/截屏2022-08-19%2015.11.23.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-19%2015.11.23.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;设置-github-pages&quot;&gt;设置 GitHub Pages&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/截屏2022-08-19%2015.12.59.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-19%2015.12.59.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;选择主题&quot;&gt;选择主题&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/截屏2022-08-19%2015.14.46.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-19%2015.14.46.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;提交代码&quot;&gt;提交代码&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/截屏2022-08-19%2015.15.55.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-19%2015.15.55.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;查看-blog&quot;&gt;查看 Blog&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/截屏2022-08-19%2015.16.50.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-19%2015.16.50.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;同步代码&quot;&gt;同步代码&lt;/h1&gt;
 
@@ -84,8 +84,8 @@
   &lt;li&gt;执行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle info jekyll&lt;/code&gt; 命令，返回 jekyll 版本号 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;* jekyll (3.9.2)&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;折腾到这里，有点晕乎乎的了，记不太清楚后面做了什么操作&lt;/li&gt;
   &lt;li&gt;根据这位大佬的方法，执行了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle add webrick&lt;/code&gt;，再运行 Jekyll，终于成功了 🎉🎉🎉
-&lt;img src=&quot;images/截屏2022-08-20%2013.52.56.png&quot; alt=&quot;&quot; /&gt;
-https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/5&lt;/li&gt;
+&lt;img src=&quot;https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-20%2013.52.56.png?raw=true&quot; alt=&quot;&quot; /&gt;
+&lt;a href=&quot;https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/5&quot;&gt;https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/5&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;主要就以上两个大坑，解决问题的过程中还遇到了无数小坑，精力有限，没有深追这些问题的原因，而且是隔了一天再记录的，很多细节已经忘记了，希望这些模糊的记忆对大家又帮助。&lt;/p&gt;
@@ -103,11 +103,11 @@ https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/5&lt;/
 
 &lt;p&gt;写的过程中，发现了一个误以为是 BUG 的功能。
 如果文件开头的 &lt;strong&gt;date&lt;/strong&gt; 属性中填的时间大于服务器时间，那么这篇文章是不会在 Blog 中显示的，猜测应该是 NexT 设计的一个定时发布文章的功能👍。
-&lt;img src=&quot;images/截屏2022-08-20%2014.13.23.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-20%2014.13.23.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;最后&quot;&gt;最后&lt;/h1&gt;
 
 &lt;p&gt;附上两张可爱猫猫照🐱&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;images/IMG_2051.jpeg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;images/IMG_2169.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>GoneGo1ng</name></author><category term="Blog" /><category term="GitHub Pages" /><category term="Blog" /><summary type="html">关于搭建 Blog，下面这篇文章已经介绍的比较详细了，但是我在按照他的步骤搭建过程中遇到了一些坑，这里记录一下，分享给大家。</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/IMG_2051.jpeg?raw=true&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/IMG_2169.JPG?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>GoneGo1ng</name></author><category term="Blog" /><category term="GitHub Pages" /><category term="Blog" /><summary type="html">关于搭建 Blog，下面这篇文章已经介绍的比较详细了，但是我在按照他的步骤搭建过程中遇到了一些坑，这里记录一下，分享给大家。</summary></entry></feed>

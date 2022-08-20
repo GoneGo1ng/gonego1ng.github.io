@@ -21,27 +21,27 @@ tags:
 
 ## 新建 Repository
 
-![](images/2022-08-20/截屏2022-08-19%2015.08.56.png)
+![](https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-19%2015.08.56.png?raw=true)
 
 ## 填写 Repository name
 
-![](images/2022-08-20/截屏2022-08-19%2015.11.23.png)
+![](https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-19%2015.11.23.png?raw=true)
 
 ## 设置 GitHub Pages
 
-![](images/2022-08-20/截屏2022-08-19%2015.12.59.png)
+![](https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-19%2015.12.59.png?raw=true)
 
 ## 选择主题
 
-![](images/2022-08-20/截屏2022-08-19%2015.14.46.png)
+![](https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-19%2015.14.46.png?raw=true)
 
 ## 提交代码
 
-![](images/2022-08-20/截屏2022-08-19%2015.15.55.png)
+![](https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-19%2015.15.55.png?raw=true)
 
 ## 查看 Blog
 
-![](images/2022-08-20/截屏2022-08-19%2015.16.50.png)
+![](https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-19%2015.16.50.png?raw=true)
 
 # 同步代码
 
@@ -90,8 +90,8 @@ bundler: failed to load command: jekyll (/usr/local/bin/jekyll)
 2. 执行 `bundle info jekyll` 命令，返回 jekyll 版本号 `* jekyll (3.9.2)`
 3. 折腾到这里，有点晕乎乎的了，记不太清楚后面做了什么操作
 4. 根据这位大佬的方法，执行了 `bundle add webrick`，再运行 Jekyll，终于成功了 🎉🎉🎉
-![](images/2022-08-20/截屏2022-08-20%2013.52.56.png)
-https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/5
+![](https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-20%2013.52.56.png?raw=true)
+[https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/5](https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/5)
    
 主要就以上两个大坑，解决问题的过程中还遇到了无数小坑，精力有限，没有深追这些问题的原因，而且是隔了一天再记录的，很多细节已经忘记了，希望这些模糊的记忆对大家又帮助。
 
@@ -106,11 +106,11 @@ https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/5
 
 写的过程中，发现了一个误以为是 BUG 的功能。
 如果文件开头的 **date** 属性中填的时间大于服务器时间，那么这篇文章是不会在 Blog 中显示的，猜测应该是 NexT 设计的一个定时发布文章的功能👍。
-![](images/2022-08-20/截屏2022-08-20%2014.13.23.png)
+![](https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-20%2014.13.23.png?raw=true)
 
 # 最后
 
 附上两张可爱猫猫照🐱
 
-![](images/2022-08-20/IMG_2051.jpeg)
-![](images/2022-08-20/IMG_2169.JPG)
+![](https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/IMG_2051.jpeg?raw=true)
+![](https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/IMG_2169.JPG?raw=true)
