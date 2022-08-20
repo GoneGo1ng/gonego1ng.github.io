@@ -93,7 +93,7 @@ bundler: failed to load command: jekyll (/usr/local/bin/jekyll)
 ![](https://github.com/GoneGo1ng/gonego1ng.github.io/blob/main/_posts/images/2022-08-20/截屏2022-08-20%2013.52.56.png?raw=true)
 [https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/5](https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/5)
    
-主要就以上两个大坑，解决问题的过程中还遇到了无数小坑，精力有限，没有深追这些问题的原因，而且是隔了一天再记录的，很多细节已经忘记了，希望这些模糊的记忆对大家又帮助。
+主要就以上两个大坑，解决问题的过程中还遇到了无数小坑，精力有限，没有深追这些问题的原因，而且是隔了一天再记录的，很多细节已经忘记了，希望这些模糊的记忆对大家有帮助。
 
 # Blog 主题配置
 
