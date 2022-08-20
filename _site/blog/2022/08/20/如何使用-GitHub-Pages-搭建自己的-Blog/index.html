@@ -1,0 +1,961 @@
+
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="theme-next pisces use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/assets/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/assets/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/assets/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="GitHub Pages,Blog," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Chi's Blog" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="第一篇 Blog - 记录自己在搭建 Blog 过程中遇到的一些坑">
+<meta name="keywords" content="GitHub Pages, Blog">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何使用 GitHub Pages 搭建自己的 Blog">
+<meta property="og:url" content="http://localhost:4000/blog/2022/08/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-GitHub-Pages-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-Blog/">
+<meta property="og:site_name" content="Chi&apos;s Blog">
+<meta property="og:description" content="第一篇 Blog - 记录自己在搭建 Blog 过程中遇到的一些坑">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="images/截屏2022-08-19%2015.08.56.png">
+<meta property="og:image" content="images/截屏2022-08-19%2015.11.23.png">
+<meta property="og:image" content="images/截屏2022-08-19%2015.12.59.png">
+<meta property="og:image" content="images/截屏2022-08-19%2015.14.46.png">
+<meta property="og:image" content="images/截屏2022-08-19%2015.15.55.png">
+<meta property="og:image" content="images/截屏2022-08-19%2015.16.50.png">
+<meta property="og:image" content="images/截屏2022-08-20%2013.52.56.png">
+<meta property="og:image" content="images/截屏2022-08-20%2014.13.23.png">
+<meta property="og:image" content="images/IMG_2051.jpeg">
+<meta property="og:image" content="images/IMG_2169.JPG">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="如何使用 GitHub Pages 搭建自己的 Blog">
+<meta name="twitter:description" content="第一篇 Blog - 记录自己在搭建 Blog 过程中遇到的一些坑">
+<meta name="twitter:image" content="images/截屏2022-08-19%2015.08.56.png">
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://localhost:4000/"/>
+
+
+
+
+
+  <title>如何使用 GitHub Pages 搭建自己的 Blog | Chi's Blog</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> <div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Chi's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+<div id="posts" class="posts-expand">
+  
+  
+
+  
+
+  
+  
+  
+
+  <article class="post post-type- " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://localhost:4000/blog/2022/08/20/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-GitHub-Pages-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-Blog/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="GoneGo1ng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/35555900?v=4">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Chi's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+          
+          
+            如何使用 GitHub Pages 搭建自己的 Blog
+          
+        </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2022-08-20T14:00:00+08:00">
+                2022-08-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/category/#/Blog" itemprop="url" rel="index">
+                    <span itemprop="name">Blog</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+            
+                <div class="post-description">
+                    第一篇 Blog - 记录自己在搭建 Blog 过程中遇到的一些坑
+                </div>
+            
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <p>关于搭建 Blog，下面这篇文章已经介绍的比较详细了，但是我在按照他的步骤搭建过程中遇到了一些坑，这里记录一下，分享给大家。</p>
+
+<blockquote>
+  <p>参考：
+<a href="https://zander2014.github.io/blog/2020/07/05/使用GitHub搭建自己的Blog/">使用GitHub搭建自己的Blog</a></p>
+</blockquote>
+
+<h1 id="搭建-blog">搭建 Blog</h1>
+
+<p>这部分参考文章的步骤没什么区别，并且参考文章写的更加详细，建议根据参考文章搭建。
+我把这部分加进来，主要是想测试一下图片的功能。</p>
+
+<h2 id="新建-repository">新建 Repository</h2>
+
+<p><img src="images/截屏2022-08-19%2015.08.56.png" alt="" /></p>
+
+<h2 id="填写-repository-name">填写 Repository name</h2>
+
+<p><img src="images/截屏2022-08-19%2015.11.23.png" alt="" /></p>
+
+<h2 id="设置-github-pages">设置 GitHub Pages</h2>
+
+<p><img src="images/截屏2022-08-19%2015.12.59.png" alt="" /></p>
+
+<h2 id="选择主题">选择主题</h2>
+
+<p><img src="images/截屏2022-08-19%2015.14.46.png" alt="" /></p>
+
+<h2 id="提交代码">提交代码</h2>
+
+<p><img src="images/截屏2022-08-19%2015.15.55.png" alt="" /></p>
+
+<h2 id="查看-blog">查看 Blog</h2>
+
+<p><img src="images/截屏2022-08-19%2015.16.50.png" alt="" /></p>
+
+<h1 id="同步代码">同步代码</h1>
+
+<h2 id="选择编辑器">选择编辑器</h2>
+
+<p>这部分参考文章没有说明使用的是什么编辑器，我这边直接用的是 IntelliJ IDEA。</p>
+
+<h2 id="使用-idea-同步-github-代码">使用 IDEA 同步 GitHub 代码</h2>
+
+<p>这一步就不多说，应该都会的吧。</p>
+
+<h1 id="安装-next">安装 NexT</h1>
+
+<p>⚠️ <strong>警告！警告！前方大量踩坑，不愿意折腾的同学可以趁早放弃了。</strong>
+<del>也可能是我环境的问题，希望你们在操作的时候一切顺利。</del></p>
+
+<blockquote>
+  <p>参考：<a href="http://theme-next.simpleyyt.com/getting-started.html#install-next-theme">NexT 官方使用文档</a></p>
+</blockquote>
+
+<p>正常来说，安装 NexT 只需要几分钟就可以了，但是在这个过程中我遇到了很多坑，导致我搞了两个半天才搞定。
+下面记录一下：</p>
+
+<h2 id="坑一">坑一</h2>
+
+<p><code class="language-plaintext highlighter-rouge">安装依赖：bundle install</code> 这一步报下面这个错：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><table style="margin: 0px"><tbody><tr><td class="gutter"><pre>1</pre></td><td class="code"><pre class="highlight"><code>An error occurred while installing commonmarker (0.17.13), and Bundler cannot continue.
+</code></pre></td></tr></tbody></table></div></div>
+
+<p>解决方法：</p>
+<ol>
+  <li><del>重装 Homebrew，没有解决问题</del></li>
+  <li><del>重装 Ruby，重装之后发现用 Homebrew 安装的 Ruby 版本（3.1.x）和 Mac 自带的 Ruby 版本（2.6.x）不一致，又改环境变量把 Ruby 改到 Homebrew 安装的那个版本，但也没有解决问题</del></li>
+  <li>删除 Gemfile.lock 文件，重新执行 <code class="language-plaintext highlighter-rouge">bundle install</code> 命令，操作完成后换了一个错误：<code class="language-plaintext highlighter-rouge">An error occurred while installing unf_ext (0.0.8.2), and Bundler cannot continue.</code></li>
+  <li>执行 <code class="language-plaintext highlighter-rouge">xcode-select --install</code> 命令，安装 xcode-select 后，再执行 <code class="language-plaintext highlighter-rouge">bundle install</code> 命令，执行成功 🎉🎉🎉</li>
+</ol>
+
+<h2 id="坑二">坑二</h2>
+
+<p><code class="language-plaintext highlighter-rouge">运行 Jekyll：bundle exec jekyll server</code> 这一步报下面这个错：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><table style="margin: 0px"><tbody><tr><td class="gutter"><pre>1</pre></td><td class="code"><pre class="highlight"><code>bundler: failed to load command: jekyll (/usr/local/bin/jekyll)
+</code></pre></td></tr></tbody></table></div></div>
+
+<p>解决方法：</p>
+<ol>
+  <li>执行 <code class="language-plaintext highlighter-rouge">jekyll --version</code> 命令查看 jekyll 版本号，返回 <code class="language-plaintext highlighter-rouge">zsh: command not found: jekyll</code></li>
+  <li>执行 <code class="language-plaintext highlighter-rouge">bundle info jekyll</code> 命令，返回 jekyll 版本号 <code class="language-plaintext highlighter-rouge">* jekyll (3.9.2)</code></li>
+  <li>折腾到这里，有点晕乎乎的了，记不太清楚后面做了什么操作</li>
+  <li>根据这位大佬的方法，执行了 <code class="language-plaintext highlighter-rouge">bundle add webrick</code>，再运行 Jekyll，终于成功了 🎉🎉🎉
+<img src="images/截屏2022-08-20%2013.52.56.png" alt="" />
+https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/5</li>
+</ol>
+
+<p>主要就以上两个大坑，解决问题的过程中还遇到了无数小坑，精力有限，没有深追这些问题的原因，而且是隔了一天再记录的，很多细节已经忘记了，希望这些模糊的记忆对大家又帮助。</p>
+
+<h1 id="blog-主题配置">Blog 主题配置</h1>
+
+<blockquote>
+  <p>NexT 官方文档已经又详细的说明了，这里就不多说了：
+<a href="http://theme-next.simpleyyt.com/theme-settings.html">主题配置</a></p>
+</blockquote>
+
+<h1 id="写博客">写博客</h1>
+
+<p>用手（其他部位也可以）写。</p>
+
+<p>写的过程中，发现了一个误以为是 BUG 的功能。
+如果文件开头的 <strong>date</strong> 属性中填的时间大于服务器时间，那么这篇文章是不会在 Blog 中显示的，猜测应该是 NexT 设计的一个定时发布文章的功能👍。
+<img src="images/截屏2022-08-20%2014.13.23.png" alt="" /></p>
+
+<h1 id="最后">最后</h1>
+
+<p>附上两张可爱猫猫照🐱</p>
+
+<p><img src="images/IMG_2051.jpeg" alt="" />
+<img src="images/IMG_2169.JPG" alt="" /></p>
+
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            
+            <a href="/tag/#/GitHub%20Pages" rel="tag"># GitHub Pages</a>
+          
+            
+            <a href="/tag/#/Blog" rel="tag"># Blog</a>
+          
+        </div>
+      
+
+      
+      
+      
+      
+      
+
+      
+      
+      
+
+      
+    </footer>
+  </article>
+
+  <div class="post-spread">
+    
+  </div>
+</div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+        
+        
+        
+
+
+
+
+
+
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="https://avatars.githubusercontent.com/u/35555900?v=4"
+               alt="GoneGo1ng" />
+          <p class="site-author-name" itemprop="name">GoneGo1ng</p>
+           
+              <p class="site-description motion-element" itemprop="description">这个人很懒，什么都没有留下</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+        
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              
+              
+              <span class="links-of-author-item">
+                <a href="https://github.com/GoneGo1ng" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+            
+              <div class="post-toc-content">
+    <ol class=nav>
+      <li class="nav-item nav-level-1"> <a class="nav-link" href="#搭建-blog"> <span class="nav-number">1</span> <span class="nav-text">搭建 Blog</span> </a> <ol class="nav-child"> <li class="nav-item nav-level-2"> <a class="nav-link" href="#新建-repository"> <span class="nav-number">1.1</span> <span class="nav-text">新建 Repository</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#填写-repository-name"> <span class="nav-number">1.2</span> <span class="nav-text">填写 Repository name</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#设置-github-pages"> <span class="nav-number">1.3</span> <span class="nav-text">设置 GitHub Pages</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#选择主题"> <span class="nav-number">1.4</span> <span class="nav-text">选择主题</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#提交代码"> <span class="nav-number">1.5</span> <span class="nav-text">提交代码</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#查看-blog"> <span class="nav-number">1.6</span> <span class="nav-text">查看 Blog</span> </a> </li> </ol> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#同步代码"> <span class="nav-number">2</span> <span class="nav-text">同步代码</span> </a> <ol class="nav-child"> <li class="nav-item nav-level-2"> <a class="nav-link" href="#选择编辑器"> <span class="nav-number">2.1</span> <span class="nav-text">选择编辑器</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#使用-idea-同步-github-代码"> <span class="nav-number">2.2</span> <span class="nav-text">使用 IDEA 同步 GitHub 代码</span> </a> </li> </ol> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#安装-next"> <span class="nav-number">3</span> <span class="nav-text">安装 NexT</span> </a> <ol class="nav-child"> <li class="nav-item nav-level-2"> <a class="nav-link" href="#坑一"> <span class="nav-number">3.1</span> <span class="nav-text">坑一</span> </a> </li> <li class="nav-item nav-level-2"> <a class="nav-link" href="#坑二"> <span class="nav-number">3.2</span> <span class="nav-text">坑二</span> </a> </li> </ol> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#blog-主题配置"> <span class="nav-number">4</span> <span class="nav-text">Blog 主题配置</span> </a> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#写博客"> <span class="nav-number">5</span> <span class="nav-text">写博客</span> </a> </li> <li class="nav-item nav-level-1"> <a class="nav-link" href="#最后"> <span class="nav-number">6</span> <span class="nav-text">最后</span> </a> </li>
+    </ol>
+  </div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">GoneGo1ng</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://jekyllrb.com">Jekyll</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="/assets/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/assets/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/assets/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
+  <script type="text/javascript" src="/assets/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/assets/js/src/post-details.js?v=5.1.1"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/assets/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+    
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+  
+
+  
+  
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
+
