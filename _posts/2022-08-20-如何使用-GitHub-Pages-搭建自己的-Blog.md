@@ -1,6 +1,6 @@
 ---
 title: 如何使用 GitHub Pages 搭建自己的 Blog
-date: 2022-08-20 06:00:00
+date: 2022-08-20
 description: 第一篇 Blog - 记录自己在搭建 Blog 过程中遇到的一些坑
 categories:
 - Blog
